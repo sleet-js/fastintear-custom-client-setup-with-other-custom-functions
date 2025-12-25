@@ -1,11 +1,21 @@
 # fastintear-custom-client-setup-with-other-custom-functions
+a custom near client set up with fastintear and functions for interacting with common smart contracts to assist in dapp development.
+
+ℹ️ expected for use in browser envirment
+
+ℹ️ developed for internal use and i don't have time to documnet everything
 
 ---
 
+develop and publish this package
 ```bash
 bun install
 bun run index.ts
 ```
+
+---
+
+## HOW TO USE
 
 
 ---
