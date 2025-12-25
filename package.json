@@ -1,0 +1,14 @@
+{
+  "name": "fastintear-custom-client-setup-with-other-custom-functions",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "fastintear": "^0.3.8"
+  }
+}
