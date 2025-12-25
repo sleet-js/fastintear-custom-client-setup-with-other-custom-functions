@@ -1,5 +1,5 @@
 {
-  "name": "fastintear-custom-client-setup-with-other-custom-functions",
+  "name": "@sleet-js/fastintear-custom-client-setup-with-other-custom-functions",
   "module": "src/index.ts",
   "type": "module",
   "license": "MIT",

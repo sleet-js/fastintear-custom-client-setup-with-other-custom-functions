@@ -27,7 +27,10 @@ bun publish --access public
 
 ## HOW TO USE
 
-
+import
+```js
+import { nearClient } from '@sleet-js/fastintear-custom-client-setup-with-other-custom-functions';
+```
 
 
 ---
