@@ -10,7 +10,10 @@ a custom near client set up with fastintear and functions for interacting with c
 develop and publish this package
 ```bash
 bun install
-bun run index.ts
+# bun run index.ts
+bun publish --dry-run
+bunx npm login
+bun publish --access public
 ```
 
 ---
