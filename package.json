@@ -2,6 +2,14 @@
   "name": "fastintear-custom-client-setup-with-other-custom-functions",
   "module": "src/index.ts",
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sleet-js/fastintear-custom-client-setup-with-other-custom-functions.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },

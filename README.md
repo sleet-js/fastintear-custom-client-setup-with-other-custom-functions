@@ -20,7 +20,14 @@ bun publish --access public
 
 ---
 
+### FEATURES
+
+- dynamic network support
+- 
+
 ## HOW TO USE
+
+
 
 
 ---
