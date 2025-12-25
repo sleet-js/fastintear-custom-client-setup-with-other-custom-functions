@@ -5,6 +5,8 @@ a custom near client set up with fastintear and functions for interacting with c
 
 ℹ️ developed for internal use and i don't have time to documnet everything
 
+ℹ️ no error handling
+
 ---
 
 develop and publish this package
