@@ -1,7 +1,7 @@
 # fastintear-custom-client-setup-with-other-custom-functions
 a custom near client set up with fastintear and functions for interacting with common smart contracts to assist in dapp development.
 
-ℹ️ expected for use in browser envirment
+ℹ️ expected for use in browser environment
 
 ℹ️ developed for internal use and i don't have time to documnet everything
 
