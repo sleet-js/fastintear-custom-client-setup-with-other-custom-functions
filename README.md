@@ -7,6 +7,8 @@ a custom near client set up with fastintear and functions for interacting with c
 
 ℹ️ no error handling
 
+ℹ️ not an exchustive list of functions, but i can add based on request
+
 ---
 
 develop and publish this package
@@ -23,7 +25,7 @@ bun publish --access public
 ### FEATURES
 
 - dynamic network support
-- 
+- typescript
 
 ## HOW TO USE
 
