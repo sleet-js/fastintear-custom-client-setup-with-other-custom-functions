@@ -1,6 +1,8 @@
 {
   "name": "@sleet-js/fastintear-custom-client-setup-with-other-custom-functions",
+  "version": "0.0.1",
   "module": "src/index.ts",
+  "homepage": "https://sleet-js.near.page",
   "type": "module",
   "license": "MIT",
   "repository": {
