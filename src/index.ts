@@ -19,7 +19,7 @@ export {
   ref_add_simple_pool_function,
 } from "./ref/ref_functions";
 // other
-export { get_nearClient_accountId } from "./other/accountid"
+export { get_nearClient_accountId } from "./other/accountId"
 // ================================================
 // ================================================
 // copyright 2025 by sleet.near
