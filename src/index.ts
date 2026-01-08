@@ -20,6 +20,8 @@ export {
 } from "./ref/ref_functions";
 // other
 export { get_nearClient_accountId } from "./other/accountId"
+export { delete_key_fun, get_key_list_fun } from "./other/keys"
+export type { ACCESS_KEY_INTERFACE } from "./other/key_types"
 // ================================================
 // ================================================
 // copyright 2025 by sleet.near
