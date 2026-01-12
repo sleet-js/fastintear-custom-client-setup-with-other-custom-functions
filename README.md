@@ -30,6 +30,12 @@ bun publish --access public
 
 ## HOW TO USE
 
+add
+```sh
+npm i @sleet-js/fastintear-custom-client-setup-with-other-custom-functions
+bun add @sleet-js/fastintear-custom-client-setup-with-other-custom-functions
+```
+
 import
 ```js
 import { nearClient } from '@sleet-js/fastintear-custom-client-setup-with-other-custom-functions';
