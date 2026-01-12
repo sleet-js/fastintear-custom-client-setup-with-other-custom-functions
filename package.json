@@ -1,7 +1,7 @@
 {
   "name": "@sleet-js/fastintear-custom-client-setup-with-other-custom-functions",
   "description": "a custom fastintear near client setup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "module": "src/index.ts",
   "homepage": "https://sleet-js.near.page",
   "type": "module",
@@ -10,6 +10,13 @@
     "type": "git",
     "url": "https://github.com/sleet-js/fastintear-custom-client-setup-with-other-custom-functions.git"
   },
+  "exports": {
+    "./button_auth.svelte": "./src/svelte/button_auth.svelte",
+    "./button_network_toggle.svelte": "./src/svelte/button_network_toggle.svelte"
+  },
+  "sideEffects": [
+    "src/svelte/*.svelte"
+  ],
   "publishConfig": {
     "access": "public"
   },
