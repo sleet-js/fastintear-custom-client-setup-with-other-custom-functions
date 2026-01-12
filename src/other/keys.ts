@@ -6,8 +6,15 @@ import type { ACCESS_KEY_INTERFACE } from "./key_types";
 // - account_id
 // ==========================================
 // delete_key_fun
-export async function delete_key_fun(publicKey: string) {
-  nearClient().actions.deleteKey({ publicKey: publicKey });
+export async function delete_key_fun(accountId: string, publicKey: string) {
+  await nearClient().sendTx({
+    receiverId: accountId,
+    actions: [
+      nearClient().actions.deleteKey({
+        publicKey: publicKey,
+      }),
+    ],
+  });
 }
 // ==========================================
 // get_key_list_fun
@@ -21,4 +28,3 @@ export async function get_key_list_fun(account_id: string) {
   return keys;
 }
 // ==========================================
-
