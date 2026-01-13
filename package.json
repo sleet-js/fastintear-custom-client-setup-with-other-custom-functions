@@ -11,6 +11,7 @@
     "url": "https://github.com/sleet-js/fastintear-custom-client-setup-with-other-custom-functions.git"
   },
   "exports": {
+    ".": "./src/index.ts",
     "./button_auth.svelte": "./src/svelte/button_auth.svelte",
     "./button_network_toggle.svelte": "./src/svelte/button_network_toggle.svelte"
   },
