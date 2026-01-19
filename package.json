@@ -22,16 +22,16 @@
     "access": "public"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "^1.3.6"
   },
   "peerDependencies": {
-    "typescript": "^5",
-    "svelte": "^5.0.0"
+    "typescript": "^5.9.3",
+    "svelte": "^5.47.0"
   },
   "dependencies": {
     "@sleet-js/ft-methods-const": "^0.0.5",
-    "@sleet-js/ref-exchange-methods-const": "^0.0.2",
+    "@sleet-js/ref-exchange-methods-const": "^0.0.3",
     "fastintear": "^0.3.8",
-    "zod": "^4.2.1"
+    "zod": "^4.3.5"
   }
 }
