@@ -14,7 +14,8 @@
     "url": "https://github.com/sleet-js/fastintear-custom-client-setup-with-other-custom-functions.git"
   },
   "scripts": {
-    "build": "bun run tsc",
+    "build": "bun run tsc && bun run copy-svelte",
+    "copy-svelte": "mkdir -p dist/svelte && cp src/svelte/*.svelte dist/svelte/",
     "dev": "bun run --watch src/index.ts",
     "clean": "rm -rf dist"
   },

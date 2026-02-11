@@ -20,9 +20,9 @@ export function getStoredNetworkId(): "mainnet" | "testnet" {
 const near_mainnetClient = createNearClient({ networkId: "mainnet" });
 const near_testnetClient = createNearClient({ networkId: "testnet" });
 //
-export function nearClient() {
+export function nearClient(): any {
   const networkId = getStoredNetworkId();
-  const client =
+  const client: any =
     networkId === "testnet" ? near_testnetClient : near_mainnetClient;
 
   console.log("[nearClient] networkId:", networkId);

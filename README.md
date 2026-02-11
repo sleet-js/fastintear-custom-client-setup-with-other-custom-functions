@@ -5,7 +5,7 @@ A custom fastintear NEAR client setup and functions for interacting with common 
 ℹ️ Expected for use in browser environment  
 ℹ️ Developed for internal use and I don't have time to document everything  
 ℹ️ No error handling  
-ℹ️ Not an exhaustive list of functions, but I can add based on request  
+ℹ️ Not an exhaustive list of functions, but I can add based on request
 
 ---
 
@@ -34,13 +34,9 @@ bun publish --access public    # Publish to npm registry
 
 ### Installation
 
-Using Bun:
+
 ```bash
 bun add @sleet-js/fastintear-custom-client-setup-with-other-custom-functions
-```
-
-Using npm:
-```bash
 npm install @sleet-js/fastintear-custom-client-setup-with-other-custom-functions
 ```
 
@@ -49,18 +45,21 @@ npm install @sleet-js/fastintear-custom-client-setup-with-other-custom-functions
 ### Usage
 
 Import the NEAR client:
+
 ```js
-import { nearClient } from '@sleet-js/fastintear-custom-client-setup-with-other-custom-functions';
+import { nearClient } from "@sleet-js/fastintear-custom-client-setup-with-other-custom-functions";
 ```
 
 Use Svelte components:
+
 ```svelte
 <script>
-  import { ButtonAuth, ButtonNetworkToggle } from '@sleet-js/fastintear-custom-client-setup-with-other-custom-functions';
+  import NETWORK_BUTTON from "@sleet-js/fastintear-custom-client-setup-with-other-custom-functions/button_network_toggle.svelte";
+  import AUTH_BUTTON from "@sleet-js/fastintear-custom-client-setup-with-other-custom-functions/button_auth.svelte";
 </script>
 
-<ButtonAuth />
-<ButtonNetworkToggle />
+<AUTH_BUTTON />
+<NETWORK_BUTTON />
 ```
 
 ---
@@ -68,6 +67,7 @@ Use Svelte components:
 ### Development
 
 This package uses:
+
 - TypeScript for type safety
 - Bun for fast builds and package management
 - Modern ESNext features
