@@ -1,7 +1,7 @@
 {
   "name": "@sleet-js/fastintear-custom-client-setup-with-other-custom-functions",
   "description": "a custom fastintear near client setup",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
