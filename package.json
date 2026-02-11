@@ -2,7 +2,10 @@
   "name": "@sleet-js/fastintear-custom-client-setup-with-other-custom-functions",
   "description": "a custom fastintear near client setup",
   "version": "0.0.4",
-  "module": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "browser": "dist/index.js",
   "homepage": "https://sleet-js.near.page",
   "type": "module",
   "license": "MIT",
@@ -10,19 +13,42 @@
     "type": "git",
     "url": "https://github.com/sleet-js/fastintear-custom-client-setup-with-other-custom-functions.git"
   },
-  "exports": {
-    ".": "./src/index.ts",
-    "./button_auth.svelte": "./src/svelte/button_auth.svelte",
-    "./button_network_toggle.svelte": "./src/svelte/button_network_toggle.svelte"
+  "scripts": {
+    "build": "bun run tsc",
+    "dev": "bun run --watch src/index.ts",
+    "clean": "rm -rf dist"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./button_auth.svelte": {
+      "import": "./dist/svelte/button_auth.svelte",
+      "require": "./dist/svelte/button_auth.svelte",
+      "types": "./dist/svelte/button_auth.svelte.d.ts"
+    },
+    "./button_network_toggle.svelte": {
+      "import": "./dist/svelte/button_network_toggle.svelte",
+      "require": "./dist/svelte/button_network_toggle.svelte",
+      "types": "./dist/svelte/button_network_toggle.svelte.d.ts"
+    }
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
   "sideEffects": [
-    "src/svelte/*.svelte"
+    "dist/svelte/*.svelte"
   ],
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "@types/bun": "^1.3.6"
+    "@types/bun": "^1.3.6",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "typescript": "^5.9.3",
