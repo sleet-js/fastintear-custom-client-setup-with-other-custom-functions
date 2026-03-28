@@ -14,11 +14,16 @@ A custom fastintear NEAR client setup and functions for interacting with common 
 This package uses modern TypeScript publishing with Bun. Here's how to develop and publish:
 
 ```bash
-bun install                    # Install dependencies
-bun run build                  # Build the package (compile TypeScript to JavaScript)
-bun publish --dry-run          # Test publish without actually publishing
-bunx npm login                 # Login to npm (first time only)
-bun publish --access public    # Publish to npm registry
+# Install dependencies
+bun install
+# Build the package (compile TypeScript to JavaScript)
+bun run build
+# Test publish without actually publishing
+bun publish --dry-run
+# Login to npm (first time only)
+bunx npm login
+# Publish to npm registry
+bun publish --access public
 ```
 
 ---
